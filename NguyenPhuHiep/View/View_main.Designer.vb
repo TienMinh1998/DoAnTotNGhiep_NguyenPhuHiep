@@ -111,8 +111,7 @@
         '
         Me.btn_thongsocot.Caption = "Nhập Nội Lực Cột"
         Me.btn_thongsocot.Id = 4
-        Me.btn_thongsocot.ImageOptions.Image = CType(resources.GetObject("btn_thongsocot.ImageOptions.Image"), System.Drawing.Image)
-        Me.btn_thongsocot.ImageOptions.LargeImage = CType(resources.GetObject("btn_thongsocot.ImageOptions.LargeImage"), System.Drawing.Image)
+        Me.btn_thongsocot.ImageOptions.SvgImage = CType(resources.GetObject("btn_thongsocot.ImageOptions.SvgImage"), DevExpress.Utils.Svg.SvgImage)
         Me.btn_thongsocot.Name = "btn_thongsocot"
         '
         'BarButtonItem5
@@ -304,7 +303,7 @@
         '
         Me.BarButtonItem18.Caption = "Show DataBase"
         Me.BarButtonItem18.Id = 28
-        Me.BarButtonItem18.ImageOptions.Image = Global.NguyenPhuHiep.My.Resources.Resources.Database_Active_icon
+        Me.BarButtonItem18.ImageOptions.SvgImage = CType(resources.GetObject("BarButtonItem18.ImageOptions.SvgImage"), DevExpress.Utils.Svg.SvgImage)
         Me.BarButtonItem18.Name = "BarButtonItem18"
         Me.BarButtonItem18.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large
         '
