@@ -1,0 +1,544 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{773A2D32-3A93-4B44-ACF0-5D05E350F420}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>NguyenPhuHiep</RootNamespace>
+    <AssemblyName>NguyenPhuHiep</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <StartupObject>View_Main.Program</StartupObject>
+    <FileAlignment>512</FileAlignment>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup>
+    <MyType>WindowsForms</MyType>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>NguyenPhuHiep.My.MyApplication</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu.UI.WinForm.BunifuShadowPanel">
+      <HintPath>E:\BuniFu\BuniFudll\Bunifu.UI.WinForm.BunifuShadowPanel.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuButton">
+      <HintPath>E:\BuniFu\BuniFudll\Bunifu.UI.WinForms.BunifuButton.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuCheckBox">
+      <HintPath>E:\BuniFu\BuniFudll\Bunifu.UI.WinForms.BunifuCheckBox.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuCircleProgress">
+      <HintPath>E:\BuniFu\BuniFudll\Bunifu.UI.WinForms.BunifuCircleProgress.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuColorTransition">
+      <HintPath>E:\BuniFu\BuniFudll\Bunifu.UI.WinForms.BunifuColorTransition.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuDataGridView">
+      <HintPath>E:\BuniFu\BuniFudll\Bunifu.UI.WinForms.BunifuDataGridView.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuDatePicker">
+      <HintPath>E:\BuniFu\BuniFudll\Bunifu.UI.WinForms.BunifuDatePicker.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuDropdown">
+      <HintPath>E:\BuniFu\BuniFudll\Bunifu.UI.WinForms.BunifuDropdown.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuFormDock">
+      <HintPath>E:\BuniFu\BuniFudll\Bunifu.UI.WinForms.BunifuFormDock.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuGauge">
+      <HintPath>E:\BuniFu\BuniFudll\Bunifu.UI.WinForms.BunifuGauge.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuImageButton">
+      <HintPath>E:\BuniFu\BuniFudll\Bunifu.UI.WinForms.BunifuImageButton.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuLabel">
+      <HintPath>E:\BuniFu\BuniFudll\Bunifu.UI.WinForms.BunifuLabel.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuPages">
+      <HintPath>E:\BuniFu\BuniFudll\Bunifu.UI.WinForms.BunifuPages.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuPictureBox">
+      <HintPath>E:\BuniFu\BuniFudll\Bunifu.UI.WinForms.BunifuPictureBox.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuProgressBar">
+      <HintPath>E:\BuniFu\BuniFudll\Bunifu.UI.WinForms.BunifuProgressBar.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuRadioButton">
+      <HintPath>E:\BuniFu\BuniFudll\Bunifu.UI.WinForms.BunifuRadioButton.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuScrollBar">
+      <HintPath>E:\BuniFu\BuniFudll\Bunifu.UI.WinForms.BunifuScrollBar.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuSlider">
+      <HintPath>E:\BuniFu\BuniFudll\Bunifu.UI.WinForms.BunifuSlider.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuTextbox">
+      <HintPath>E:\BuniFu\BuniFudll\Bunifu.UI.WinForms.BunifuTextbox.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuToolTip">
+      <HintPath>E:\BuniFu\BuniFudll\Bunifu.UI.WinForms.BunifuToolTip.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuTransition">
+      <HintPath>E:\BuniFu\BuniFudll\Bunifu.UI.WinForms.BunifuTransition.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuUserControl">
+      <HintPath>E:\BuniFu\BuniFudll\Bunifu.UI.WinForms.BunifuUserControl.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.ToggleSwitch">
+      <HintPath>E:\BuniFu\BuniFudll\Bunifu.UI.WinForms.ToggleSwitch.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>E:\BuniFu\BuniFudll\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.BonusSkins.v19.1" />
+    <Reference Include="DevExpress.Data.v19.1" />
+    <Reference Include="DevExpress.Printing.v19.1.Core" />
+    <Reference Include="DevExpress.Utils.v19.1" />
+    <Reference Include="DevExpress.Xpo.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v19.1" />
+    <Reference Include="DevExpress.Sparkline.v19.1.Core" />
+    <Reference Include="DevExpress.XtraEditors.v19.1" />
+    <Reference Include="Guna.UI2, Version=2.0.1.4, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.UI2.WinForms.2.0.1.4\lib\net40\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveCharts, Version=0.9.7.0, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
+      <HintPath>..\packages\LiveCharts.0.9.7\lib\net45\LiveCharts.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveCharts.WinForms, Version=0.9.7.1, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
+      <HintPath>..\packages\LiveCharts.WinForms.0.9.7.1\lib\net45\LiveCharts.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveCharts.Wpf, Version=0.9.7.0, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
+      <HintPath>..\packages\LiveCharts.Wpf.0.9.7\lib\net45\LiveCharts.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controler\Banve\BanVeControler.vb" />
+    <Compile Include="Controler\Banve\Hamve.vb" />
+    <Compile Include="Controler\bieudo_Controler.vb" />
+    <Compile Include="Controler\Draw.vb" />
+    <Compile Include="Controler\kiemtraThepControler.vb" />
+    <Compile Include="Controler\MainControler.vb" />
+    <Compile Include="Controler\TinhToan.vb" />
+    <Compile Include="Functions.vb" />
+    <Compile Include="Model\Column\Ba.vb" />
+    <Compile Include="Model\NoiLuc\Element.vb" />
+    <Compile Include="Model\Vatlieu\choncotthep.vb" />
+    <Compile Include="Model\NoiLuc\cls_noiluc.vb" />
+    <Compile Include="Model\NoiLuc\cls_noiluc2.vb" />
+    <Compile Include="Model\Column\Col.vb" />
+    <Compile Include="Model\Column\cotkiemtra.vb" />
+    <Compile Include="Model\Column\cot_chuatinh.vb" />
+    <Compile Include="Model\Data.vb" />
+    <Compile Include="Model\K.vb" />
+    <Compile Include="Model\Vatlieu\Material.vb" />
+    <Compile Include="View\Accessdatabase.Designer.vb">
+      <DependentUpon>Accessdatabase.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\Accessdatabase.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FRMhuongdan.Designer.vb">
+      <DependentUpon>FRMhuongdan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\FRMhuongdan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FRM_gioithieu.Designer.vb">
+      <DependentUpon>FRM_gioithieu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\FRM_gioithieu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\kiemtra_view.Designer.vb">
+      <DependentUpon>kiemtra_view.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\kiemtra_view.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Nhaplieu.Designer.vb">
+      <DependentUpon>Nhaplieu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\Nhaplieu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\PointView.Designer.vb">
+      <DependentUpon>PointView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\PointView.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ExcelView.Designer.vb">
+      <DependentUpon>ExcelView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\ExcelView.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Teamplate.Designer.vb">
+      <DependentUpon>Teamplate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\Teamplate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\tohopView.Designer.vb">
+      <DependentUpon>tohopView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\tohopView.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\View_About.Designer.vb">
+      <DependentUpon>View_About.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\View_About.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\View_BanVe.Designer.vb">
+      <DependentUpon>View_BanVe.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\View_BanVe.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\view_bieudo.Designer.vb">
+      <DependentUpon>view_bieudo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\view_bieudo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\View_choncot.Designer.vb">
+      <DependentUpon>View_choncot.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\View_choncot.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\View_Huongdansudung.Designer.vb">
+      <DependentUpon>View_Huongdansudung.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\View_Huongdansudung.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\View_main.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\View_main.Designer.vb">
+      <DependentUpon>View_main.vb</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="View\View_Start.Designer.vb">
+      <DependentUpon>View_Start.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\View_Start.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\View_thongsocot.Designer.vb">
+      <DependentUpon>View_thongsocot.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\View_thongsocot.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\View_VatLieu.Designer.vb">
+      <DependentUpon>View_VatLieu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\View_VatLieu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <EmbeddedResource Include="View\Accessdatabase.resx">
+      <DependentUpon>Accessdatabase.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ExcelView.resx">
+      <DependentUpon>ExcelView.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FRMhuongdan.resx">
+      <DependentUpon>FRMhuongdan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FRM_gioithieu.resx">
+      <DependentUpon>FRM_gioithieu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\kiemtra_view.resx">
+      <DependentUpon>kiemtra_view.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Nhaplieu.resx">
+      <DependentUpon>Nhaplieu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\PointView.resx">
+      <DependentUpon>PointView.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Teamplate.resx">
+      <DependentUpon>Teamplate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\tohopView.resx">
+      <DependentUpon>tohopView.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\View_About.resx">
+      <DependentUpon>View_About.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\View_BanVe.resx">
+      <DependentUpon>View_BanVe.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\view_bieudo.resx">
+      <DependentUpon>view_bieudo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\View_choncot.resx">
+      <DependentUpon>View_choncot.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\View_Huongdansudung.resx">
+      <DependentUpon>View_Huongdansudung.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\View_main.resx">
+      <DependentUpon>View_main.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="View\View_Start.resx">
+      <DependentUpon>View_Start.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\View_thongsocot.resx">
+      <DependentUpon>View_thongsocot.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\View_VatLieu.resx">
+      <DependentUpon>View_VatLieu.vb</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="View\app.config" />
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\2.png" />
+    <Content Include="Resources\2_1.png" />
+    <Content Include="Resources\2_duoi.png" />
+    <Content Include="Resources\2_tren.png" />
+    <None Include="Resources\3d.jpeg" />
+    <Content Include="Resources\3_1.png" />
+    <Content Include="Resources\3_duoi.png" />
+    <Content Include="Resources\3_tren.png" />
+    <Content Include="Resources\4_1.png" />
+    <Content Include="Resources\4_1_1.png" />
+    <Content Include="Resources\4_2.png" />
+    <Content Include="Resources\4_2_1.png" />
+    <Content Include="Resources\4_duoi.png" />
+    <Content Include="Resources\4_tren.png" />
+    <Content Include="Resources\5_1.png" />
+    <Content Include="Resources\5_2.png" />
+    <Content Include="Resources\5_duoi.png" />
+    <Content Include="Resources\5_tren.png" />
+    <Content Include="Resources\6.png" />
+    <Content Include="Resources\6_1.png" />
+    <Content Include="Resources\6_duoi.png" />
+    <Content Include="Resources\6_tren.png" />
+    <None Include="Resources\WmjEvX.jpg" />
+    <None Include="Resources\close-icon1.png" />
+    <None Include="Resources\access-icon.png" />
+    <None Include="Resources\Database-Active-icon.png" />
+    <Content Include="Resources\dwg-icon-150x150.png" />
+    <None Include="Resources\dwg-icon-150x1501.png" />
+    <Content Include="Resources\etab.jpg" />
+    <Content Include="Resources\freepressjournal_2020-09_77768f25-23cc-4207-b094-03946a1e7b8a_122002734_isometric_3d_online_exam_or_course_concept_with_books_and_computer_exams_with_time_icon_ve.jpg" />
+    <None Include="Resources\icons8-25%25-641.png" />
+    <None Include="Resources\icons8-25%25-642.png" />
+    <Content Include="Resources\icons8-about-96.png" />
+    <Content Include="Resources\icons8-add-folder-96.png" />
+    <Content Include="Resources\icons8-autodesk-autocad-96.png" />
+    <None Include="Resources\icons8-blockchain-technology-64.png" />
+    <Content Include="Resources\icons8-calculator-96.png" />
+    <Content Include="Resources\icons8-cloud-print-96.png" />
+    <None Include="Resources\icons8-database-administrator-481.png" />
+    <Content Include="Resources\icons8-design-96.png" />
+    <None Include="Resources\icons8-doughnut-chart-64.png" />
+    <Content Include="Resources\icons8-microsoft-excel-2019-96.png" />
+    <Content Include="Resources\icons8-microsoft-word-2019-96.png" />
+    <None Include="Resources\icons8-mind-map-481.png" />
+    <Content Include="Resources\icons8-name-tag-80.png" />
+    <Content Include="Resources\icons8-opened-folder-96.png" />
+    <None Include="Resources\icons8-show-property-64.png" />
+    <Content Include="Resources\icons8-steel-ore-96.png" />
+    <Content Include="Resources\icon_load.png" />
+    <Content Include="Resources\icon_steel.png" />
+    <None Include="Resources\icon_steel1.png" />
+    <Content Include="Resources\ic_thep.png" />
+    <Content Include="Resources\matcat.png" />
+    <None Include="Resources\ms-excel-icon.png" />
+    <Content Include="Resources\noilucdam.png" />
+    <Content Include="Resources\OIP.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxVDProLib5">
+      <Guid>{68C2910D-885A-4B9D-BA07-ABFE0563A8E9}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="AxVDStdLib5">
+      <Guid>{CF8CE0FC-B461-4F49-9B07-95CF36579963}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>9</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VDProLib5">
+      <Guid>{68C2910D-885A-4B9D-BA07-ABFE0563A8E9}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VDStdLib5">
+      <Guid>{CF8CE0FC-B461-4F49-9B07-95CF36579963}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DataBase\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

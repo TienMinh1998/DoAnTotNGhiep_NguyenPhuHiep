@@ -1,0 +1,292 @@
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\obj\Debug\Interop.VDProLib5.dll
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\obj\Debug\Interop.VDStdLib5.dll
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\obj\Debug\AxInterop.VDProLib5.dll
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\obj\Debug\AxInterop.VDStdLib5.dll
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\obj\Debug\NguyenPhuHiep.vbproj.ResolveComReference.cache
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\obj\Debug\NguyenPhuHiep.Accessdatabase.resources
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\obj\Debug\NguyenPhuHiep.ExcelView.resources
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\obj\Debug\NguyenPhuHiep.FRMhuongdan.resources
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\obj\Debug\NguyenPhuHiep.FRM_gioithieu.resources
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\obj\Debug\NguyenPhuHiep.kiemtra_view.resources
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\obj\Debug\NguyenPhuHiep.Nhaplieu.resources
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\obj\Debug\NguyenPhuHiep.FRM_PointView.resources
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\obj\Debug\NguyenPhuHiep.Teamplate.resources
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\obj\Debug\NguyenPhuHiep.tohopView.resources
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\obj\Debug\NguyenPhuHiep.View_About.resources
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\obj\Debug\NguyenPhuHiep.View_BanVe.resources
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\obj\Debug\NguyenPhuHiep.view_bieudo.resources
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\obj\Debug\NguyenPhuHiep.View_choncot.resources
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\obj\Debug\NguyenPhuHiep.View_Huongdansudung.resources
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\obj\Debug\NguyenPhuHiep.View_main.resources
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\obj\Debug\NguyenPhuHiep.Resources.resources
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\obj\Debug\NguyenPhuHiep.View_Start.resources
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\obj\Debug\NguyenPhuHiep.View_thongsocot.resources
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\obj\Debug\NguyenPhuHiep.View_VatLieu.resources
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\obj\Debug\NguyenPhuHiep.vbproj.GenerateResource.cache
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\obj\Debug\NguyenPhuHiep.exe.licenses
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\obj\Debug\NguyenPhuHiep.vbproj.CoreCompileInputs.cache
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\NguyenPhuHiep.exe.config
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\NguyenPhuHiep.exe
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\NguyenPhuHiep.pdb
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.Core.dll
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForm.BunifuShadowPanel.dll
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForms.BunifuButton.dll
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForms.BunifuCheckBox.dll
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForms.BunifuCircleProgress.dll
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForms.BunifuColorTransition.dll
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.dll
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForms.BunifuDatePicker.dll
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForms.BunifuDropdown.dll
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForms.BunifuFormDock.dll
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForms.BunifuGauge.dll
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForms.BunifuImageButton.dll
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForms.BunifuLabel.dll
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForms.BunifuPages.dll
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.dll
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForms.BunifuProgressBar.dll
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForms.BunifuRadioButton.dll
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForms.BunifuScrollBar.dll
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForms.BunifuSlider.dll
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForms.BunifuTextbox.dll
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForms.BunifuToolTip.dll
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForms.BunifuTransition.dll
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForms.BunifuUserControl.dll
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForms.ToggleSwitch.dll
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu_UI_v1.5.3.dll
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\DevExpress.BonusSkins.v19.1.dll
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\DevExpress.Data.v19.1.dll
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\DevExpress.Printing.v19.1.Core.dll
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\DevExpress.Sparkline.v19.1.Core.dll
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\DevExpress.Utils.v19.1.dll
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\DevExpress.XtraBars.v19.1.dll
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\DevExpress.XtraEditors.v19.1.dll
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\Guna.UI2.dll
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\LiveCharts.dll
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\LiveCharts.WinForms.dll
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\LiveCharts.Wpf.dll
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\DevExpress.Pdf.v19.1.Core.dll
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForm.BunifuShadowPanel.xml
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForms.BunifuButton.xml
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForms.BunifuCheckBox.xml
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForms.BunifuCircleProgress.xml
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForms.BunifuColorTransition.xml
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.xml
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForms.BunifuDatePicker.xml
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForms.BunifuDropdown.xml
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForms.BunifuFormDock.xml
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForms.BunifuGauge.xml
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForms.BunifuImageButton.xml
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForms.BunifuLabel.xml
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForms.BunifuPages.xml
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.xml
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForms.BunifuProgressBar.xml
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForms.BunifuRadioButton.xml
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForms.BunifuScrollBar.xml
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForms.BunifuSlider.xml
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForms.BunifuTextbox.xml
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForms.BunifuToolTip.xml
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForms.BunifuTransition.xml
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForms.BunifuUserControl.xml
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForms.ToggleSwitch.xml
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu_UI_v1.5.3.xml
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\DevExpress.Data.v19.1.xml
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\DevExpress.Printing.v19.1.Core.xml
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\DevExpress.Utils.v19.1.xml
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\DevExpress.XtraBars.v19.1.xml
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\DevExpress.Sparkline.v19.1.Core.xml
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\DevExpress.XtraEditors.v19.1.xml
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\LiveCharts.pdb
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\LiveCharts.xml
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\LiveCharts.WinForms.pdb
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\LiveCharts.WinForms.xml
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\LiveCharts.Wpf.pdb
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\LiveCharts.Wpf.xml
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\DevExpress.Pdf.v19.1.Core.xml
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\de\DevExpress.Data.v19.1.resources.dll
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\es\DevExpress.Data.v19.1.resources.dll
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\ja\DevExpress.Data.v19.1.resources.dll
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\ru\DevExpress.Data.v19.1.resources.dll
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\de\DevExpress.Printing.v19.1.Core.resources.dll
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\es\DevExpress.Printing.v19.1.Core.resources.dll
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\ja\DevExpress.Printing.v19.1.Core.resources.dll
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\ru\DevExpress.Printing.v19.1.Core.resources.dll
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\de\DevExpress.Utils.v19.1.resources.dll
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\es\DevExpress.Utils.v19.1.resources.dll
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\ja\DevExpress.Utils.v19.1.resources.dll
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\ru\DevExpress.Utils.v19.1.resources.dll
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\de\DevExpress.XtraBars.v19.1.resources.dll
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\es\DevExpress.XtraBars.v19.1.resources.dll
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\ja\DevExpress.XtraBars.v19.1.resources.dll
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\ru\DevExpress.XtraBars.v19.1.resources.dll
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\de\DevExpress.Sparkline.v19.1.Core.resources.dll
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\es\DevExpress.Sparkline.v19.1.Core.resources.dll
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\ja\DevExpress.Sparkline.v19.1.Core.resources.dll
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\ru\DevExpress.Sparkline.v19.1.Core.resources.dll
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\de\DevExpress.XtraEditors.v19.1.resources.dll
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\es\DevExpress.XtraEditors.v19.1.resources.dll
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\ja\DevExpress.XtraEditors.v19.1.resources.dll
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\ru\DevExpress.XtraEditors.v19.1.resources.dll
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\de\DevExpress.Pdf.v19.1.Core.resources.dll
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\es\DevExpress.Pdf.v19.1.Core.resources.dll
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\ja\DevExpress.Pdf.v19.1.Core.resources.dll
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\ru\DevExpress.Pdf.v19.1.Core.resources.dll
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\Interop.VDProLib5.dll
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\Interop.VDStdLib5.dll
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\AxInterop.VDProLib5.dll
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\AxInterop.VDStdLib5.dll
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\obj\Debug\NguyenPhuHiep.vbproj.CopyComplete
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\obj\Debug\NguyenPhuHiep.exe
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\obj\Debug\NguyenPhuHiep.pdb
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\obj\Debug\NguyenPhuHiep.vbprojAssemblyReference.cache
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\DevExpress.Xpo.v19.1.dll
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\DevExpress.Xpo.v19.1.xml
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\de\DevExpress.Xpo.v19.1.resources.dll
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\es\DevExpress.Xpo.v19.1.resources.dll
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\ja\DevExpress.Xpo.v19.1.resources.dll
+E:\DATN_2021\DATN_HIEP\NguyenPhuHiep\bin\Debug\ru\DevExpress.Xpo.v19.1.resources.dll
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\NguyenPhuHiep.exe.config
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\NguyenPhuHiep.exe
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\NguyenPhuHiep.pdb
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForm.BunifuShadowPanel.dll
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForms.BunifuButton.dll
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForms.BunifuCheckBox.dll
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForms.BunifuCircleProgress.dll
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForms.BunifuColorTransition.dll
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.dll
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForms.BunifuDatePicker.dll
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForms.BunifuDropdown.dll
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForms.BunifuFormDock.dll
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForms.BunifuGauge.dll
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForms.BunifuImageButton.dll
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForms.BunifuLabel.dll
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForms.BunifuPages.dll
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.dll
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForms.BunifuProgressBar.dll
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForms.BunifuRadioButton.dll
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForms.BunifuScrollBar.dll
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForms.BunifuSlider.dll
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForms.BunifuTextbox.dll
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForms.BunifuToolTip.dll
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForms.BunifuTransition.dll
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForms.BunifuUserControl.dll
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForms.ToggleSwitch.dll
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu_UI_v1.5.3.dll
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\DevExpress.BonusSkins.v19.1.dll
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\DevExpress.Data.v19.1.dll
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\DevExpress.Printing.v19.1.Core.dll
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\DevExpress.Sparkline.v19.1.Core.dll
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\DevExpress.Utils.v19.1.dll
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\DevExpress.Xpo.v19.1.dll
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\DevExpress.XtraBars.v19.1.dll
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\DevExpress.XtraEditors.v19.1.dll
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\Guna.UI2.dll
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\LiveCharts.dll
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\LiveCharts.WinForms.dll
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\LiveCharts.Wpf.dll
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.Core.dll
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\DevExpress.Pdf.v19.1.Core.dll
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForm.BunifuShadowPanel.xml
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForms.BunifuButton.xml
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForms.BunifuCheckBox.xml
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForms.BunifuCircleProgress.xml
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForms.BunifuColorTransition.xml
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.xml
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForms.BunifuDatePicker.xml
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForms.BunifuDropdown.xml
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForms.BunifuFormDock.xml
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForms.BunifuGauge.xml
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForms.BunifuImageButton.xml
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForms.BunifuLabel.xml
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForms.BunifuPages.xml
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.xml
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForms.BunifuProgressBar.xml
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForms.BunifuRadioButton.xml
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForms.BunifuScrollBar.xml
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForms.BunifuSlider.xml
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForms.BunifuTextbox.xml
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForms.BunifuToolTip.xml
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForms.BunifuTransition.xml
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForms.BunifuUserControl.xml
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu.UI.WinForms.ToggleSwitch.xml
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\Bunifu_UI_v1.5.3.xml
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\DevExpress.Data.v19.1.xml
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\DevExpress.Printing.v19.1.Core.xml
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\DevExpress.Utils.v19.1.xml
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\DevExpress.Xpo.v19.1.xml
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\DevExpress.XtraBars.v19.1.xml
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\DevExpress.Sparkline.v19.1.Core.xml
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\DevExpress.XtraEditors.v19.1.xml
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\LiveCharts.pdb
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\LiveCharts.xml
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\LiveCharts.WinForms.pdb
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\LiveCharts.WinForms.xml
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\LiveCharts.Wpf.pdb
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\LiveCharts.Wpf.xml
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\DevExpress.Pdf.v19.1.Core.xml
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\de\DevExpress.Data.v19.1.resources.dll
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\es\DevExpress.Data.v19.1.resources.dll
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\ja\DevExpress.Data.v19.1.resources.dll
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\ru\DevExpress.Data.v19.1.resources.dll
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\de\DevExpress.Printing.v19.1.Core.resources.dll
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\es\DevExpress.Printing.v19.1.Core.resources.dll
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\ja\DevExpress.Printing.v19.1.Core.resources.dll
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\ru\DevExpress.Printing.v19.1.Core.resources.dll
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\de\DevExpress.Utils.v19.1.resources.dll
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\es\DevExpress.Utils.v19.1.resources.dll
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\ja\DevExpress.Utils.v19.1.resources.dll
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\ru\DevExpress.Utils.v19.1.resources.dll
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\de\DevExpress.Xpo.v19.1.resources.dll
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\es\DevExpress.Xpo.v19.1.resources.dll
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\ja\DevExpress.Xpo.v19.1.resources.dll
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\ru\DevExpress.Xpo.v19.1.resources.dll
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\de\DevExpress.XtraBars.v19.1.resources.dll
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\es\DevExpress.XtraBars.v19.1.resources.dll
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\ja\DevExpress.XtraBars.v19.1.resources.dll
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\ru\DevExpress.XtraBars.v19.1.resources.dll
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\de\DevExpress.Sparkline.v19.1.Core.resources.dll
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\es\DevExpress.Sparkline.v19.1.Core.resources.dll
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\ja\DevExpress.Sparkline.v19.1.Core.resources.dll
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\ru\DevExpress.Sparkline.v19.1.Core.resources.dll
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\de\DevExpress.XtraEditors.v19.1.resources.dll
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\es\DevExpress.XtraEditors.v19.1.resources.dll
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\ja\DevExpress.XtraEditors.v19.1.resources.dll
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\ru\DevExpress.XtraEditors.v19.1.resources.dll
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\de\DevExpress.Pdf.v19.1.Core.resources.dll
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\es\DevExpress.Pdf.v19.1.Core.resources.dll
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\ja\DevExpress.Pdf.v19.1.Core.resources.dll
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\ru\DevExpress.Pdf.v19.1.Core.resources.dll
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\Interop.VDProLib5.dll
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\Interop.VDStdLib5.dll
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\AxInterop.VDProLib5.dll
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\bin\Debug\AxInterop.VDStdLib5.dll
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\obj\Debug\NguyenPhuHiep.vbprojAssemblyReference.cache
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\obj\Debug\Interop.VDProLib5.dll
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\obj\Debug\Interop.VDStdLib5.dll
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\obj\Debug\AxInterop.VDProLib5.dll
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\obj\Debug\AxInterop.VDStdLib5.dll
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\obj\Debug\NguyenPhuHiep.vbproj.ResolveComReference.cache
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\obj\Debug\NguyenPhuHiep.Accessdatabase.resources
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\obj\Debug\NguyenPhuHiep.ExcelView.resources
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\obj\Debug\NguyenPhuHiep.FRMhuongdan.resources
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\obj\Debug\NguyenPhuHiep.FRM_gioithieu.resources
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\obj\Debug\NguyenPhuHiep.kiemtra_view.resources
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\obj\Debug\NguyenPhuHiep.Nhaplieu.resources
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\obj\Debug\NguyenPhuHiep.FRM_PointView.resources
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\obj\Debug\NguyenPhuHiep.Teamplate.resources
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\obj\Debug\NguyenPhuHiep.tohopView.resources
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\obj\Debug\NguyenPhuHiep.View_About.resources
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\obj\Debug\NguyenPhuHiep.View_BanVe.resources
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\obj\Debug\NguyenPhuHiep.view_bieudo.resources
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\obj\Debug\NguyenPhuHiep.View_choncot.resources
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\obj\Debug\NguyenPhuHiep.View_Huongdansudung.resources
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\obj\Debug\NguyenPhuHiep.View_main.resources
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\obj\Debug\NguyenPhuHiep.Resources.resources
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\obj\Debug\NguyenPhuHiep.View_Start.resources
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\obj\Debug\NguyenPhuHiep.View_thongsocot.resources
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\obj\Debug\NguyenPhuHiep.View_VatLieu.resources
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\obj\Debug\NguyenPhuHiep.vbproj.GenerateResource.cache
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\obj\Debug\NguyenPhuHiep.exe.licenses
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\obj\Debug\NguyenPhuHiep.vbproj.CoreCompileInputs.cache
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\obj\Debug\NguyenPhuHiep.vbproj.CopyComplete
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\obj\Debug\NguyenPhuHiep.exe
+S:\24052021_NguyenPhuHiep_DATN (1)\DATN_HIEP\NguyenPhuHiep\obj\Debug\NguyenPhuHiep.pdb
