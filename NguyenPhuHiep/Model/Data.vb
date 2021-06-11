@@ -20,6 +20,7 @@ Module Data
     ' Kết quả nội suy 
     Public anpha As Double
     Public sothanhthep As Integer
+
     Public bankinh1 As Double
     Public bankinh2 As Double
     ' Kiểm tra
@@ -61,5 +62,7 @@ Module Data
     Public mx As String
     Public my As String
     Public ntu As String
+    ' Dữ liệu để vẽ
+    Public duongkinhve As Integer
 
 End Module

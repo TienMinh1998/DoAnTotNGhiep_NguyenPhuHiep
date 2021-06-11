@@ -137,4 +137,13 @@ Partial Public Class View_main
     Private Sub btnAccess_ItemClick(sender As Object, e As DevExpress.XtraBars.ItemClickEventArgs) Handles btnAccess.ItemClick
 
     End Sub
+
+    Private Sub btn_xuatbanve_ItemClick(sender As Object, e As DevExpress.XtraBars.ItemClickEventArgs) Handles btn_xuatbanve.ItemClick
+        ' Xuất bản vẽ 
+        Dim Save As New SaveFileDialog
+        Save.Filter = "dxf|*.dxf"
+        If (Save.ShowDialog = DialogResult.OK) Then
+            View_BanVe.vdr.ActiveDocument.SaveAs(Save.FileName, 7)
+        End If
+    End Sub
 End Class

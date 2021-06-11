@@ -12,7 +12,7 @@
 
         Hamve.vehinhtron(BanVe, New Point(centerpoint.X, centerpoint.Y), Data.bankinh1) ' bán kính khi chưa trừ đi lớp bảo vệ
         Hamve.vehinhtron(BanVe, New Point(centerpoint.X, centerpoint.Y), Data.bankinh2, "1") ' bán kính khi đã trừ đi lớp bảo vệk
-        vesothanhthep(sothanhthep, New Point(centerpoint.X, centerpoint.Y), Data.bankinh2)
+        vesothanhthep(sothanhthep, New Point(centerpoint.X, centerpoint.Y), Data.bankinh2, "D" + Data.duongkinhve.ToString)
         ' Chèn Text 
         Dim diemchentext As New Point
         diemchentext.X = centerpoint.X - CInt(Data.bankinh1)
@@ -94,15 +94,194 @@
 
         Hamve.zoom()
     End Sub
-
-    Private Sub vesothanhthep(sothanh As Double, CenterPoint As Point, bK_quay As Double)
+    Dim lst_diemchen As New List(Of Point)
+    Dim lst_diemchen1 As New List(Of Point)
+    Dim lst_diemchen2 As New List(Of Point)
+    Private Sub vesothanhthep(sothanh As Double, CenterPoint As Point, bK_quay As Double, duongkinhthep As String)
         Dim gocquay As Double = (360 / sothanh) * (Math.PI / 180.0#)
         Dim x, y As Double
+        Dim diemchen As Point
+        Dim rd As Integer = CInt(Data.bankinh1 / 35.0#)
+        ' Chèn vào vị trí số thanh chia 8
+        Dim vitrichen As Integer = CInt(Math.Truncate(sothanh / 8.0#))
+        Dim vitrichen2 As Integer = CInt(Math.Truncate(sothanh * (3.0# / 8.0#)))
+        Dim vitrichen3 As Integer = CInt(Math.Truncate(sothanh * (5.0# / 8.0#)))
+        Dim vitrichen4 As Integer = CInt(Math.Truncate(sothanh * (7.0# / 8.0#)))
+        ' Cho hinh chu nhat
+        Dim _vitrichen, _vitrichen2, _vitrichen3, _vitrichen4 As Integer
+        Dim _vitrichen_1, _vitrichen2_1, _vitrichen3_1, _vitrichen4_1 As Integer
+        If sothanh <= 16 Then ' nhỏ hơn 16
+            _vitrichen = CInt(Math.Truncate(sothanh * (3.0# / 16.0#)))
+            _vitrichen2 = CInt(Math.Truncate(sothanh * (5.0# / 16.0#)))
+            _vitrichen3 = CInt(Math.Truncate(sothanh * (11.0# / 16.0#)))
+            _vitrichen4 = CInt(Math.Truncate(sothanh * (13.0# / 16.0#)))
+            ' cho hình chữ nhật ngang
+            _vitrichen_1 = CInt(Math.Truncate(sothanh * (1.0# / 16.0#)))
+            _vitrichen2_1 = CInt(Math.Truncate(sothanh * (7.0# / 16.0#)))
+            _vitrichen3_1 = CInt(Math.Truncate(sothanh * (9.0# / 16.0#)))
+            _vitrichen4_1 = CInt(Math.Truncate(sothanh * (15.0# / 16.0#)))
+        ElseIf sothanh <= 24 Then ' vào đến đây là lớn hơn 16 nhỏ hơn 24
+            _vitrichen = CInt(Math.Truncate(sothanh * (5.0# / 24.0#)))
+            _vitrichen2 = CInt(Math.Truncate(sothanh * (7.0# / 24.0#)))
+            _vitrichen3 = CInt(Math.Truncate(sothanh * (17.0# / 24.0#)))
+            _vitrichen4 = CInt(Math.Truncate(sothanh * (19.0# / 24.0#)))
+            ' hình chữ nhật ngang
+            _vitrichen_1 = CInt(Math.Truncate(sothanh * (1.0# / 24.0#)))
+            _vitrichen2_1 = CInt(Math.Truncate(sothanh * (11.0# / 24.0#)))
+            _vitrichen3_1 = CInt(Math.Truncate(sothanh * (13.0# / 24.0#)))
+            _vitrichen4_1 = CInt(Math.Truncate(sothanh * (23.0# / 24.0#)))
+        End If
+
+
+
+
         For i = 0 To sothanh
             x = Math.Cos(gocquay * i) * bK_quay + CenterPoint.X
             y = Math.Sin(gocquay * i) * bK_quay + CenterPoint.Y
             Hamve.vethep(BanVe, New Point(CInt(x), CInt(y)), Data.bankinh1 / 35.0#, "1")
+            If i = vitrichen Then
+                diemchen = Hamve.vethep(BanVe, New Point(CInt(x), CInt(y)), Data.bankinh1 / 35.0#, "1")
+                Hamve.thep_doc_cot(BanVe, diemchen, duongkinhthep)
+
+                diemchen.Y = diemchen.Y + rd
+
+                lst_diemchen.Add(diemchen)
+
+
+                Dim p2 As Point
+                p2.X = diemchen.X + rd
+                p2.Y = diemchen.Y - rd
+                lst_diemchen.Add(p2)
+
+            End If
+            If i = vitrichen2 Then
+                diemchen = Hamve.vethep(BanVe, New Point(CInt(x), CInt(y)), Data.bankinh1 / 35.0#, "1")
+                diemchen.Y = diemchen.Y + rd
+                lst_diemchen.Add(diemchen) ' p3
+                Dim p4 As Point
+                p4.X = diemchen.X - rd
+                p4.Y = diemchen.Y - rd
+                lst_diemchen.Add(p4)
+
+            End If
+            If i = vitrichen3 Then
+                diemchen = Hamve.vethep(BanVe, New Point(CInt(x), CInt(y)), Data.bankinh1 / 35.0#, "1")
+                diemchen.X = diemchen.X
+                diemchen.Y = diemchen.Y - rd
+                lst_diemchen.Add(diemchen)
+                Dim p6 As Point
+                p6.X = diemchen.X - rd
+                p6.Y = diemchen.Y + rd
+                lst_diemchen.Add(p6)
+
+
+            End If
+            If i = vitrichen4 Then
+                diemchen = Hamve.vethep(BanVe, New Point(CInt(x), CInt(y)), Data.bankinh1 / 35.0#, "1")
+                diemchen.Y = diemchen.Y - rd
+                diemchen.X = diemchen.X
+
+                lst_diemchen.Add(diemchen)
+                Dim p8 As Point
+                p8.X = diemchen.X + rd
+                p8.Y = diemchen.Y + rd
+                lst_diemchen.Add(p8)
+            End If
+
+            ' Thép đai hình chữ nhật
+
+            If i = _vitrichen Then
+                diemchen = Hamve.vethep(BanVe, New Point(CInt(x), CInt(y)), Data.bankinh1 / 35.0#, "1")
+                diemchen.Y = diemchen.Y + rd
+                lst_diemchen1.Add(diemchen)
+                Dim p2 As Point
+                p2.X = diemchen.X + rd
+                p2.Y = diemchen.Y - rd
+                lst_diemchen1.Add(p2)
+
+            End If
+            If i = _vitrichen2 Then
+                diemchen = Hamve.vethep(BanVe, New Point(CInt(x), CInt(y)), Data.bankinh1 / 35.0#, "1")
+                diemchen.Y = diemchen.Y + rd
+                lst_diemchen1.Add(diemchen) ' p3
+                Dim p4 As Point
+                p4.X = diemchen.X - rd
+                p4.Y = diemchen.Y - rd
+                lst_diemchen1.Add(p4)
+
+            End If
+            If i = _vitrichen3 Then
+                diemchen = Hamve.vethep(BanVe, New Point(CInt(x), CInt(y)), Data.bankinh1 / 35.0#, "1")
+                diemchen.X = diemchen.X
+                diemchen.Y = diemchen.Y - rd
+                lst_diemchen1.Add(diemchen)
+                Dim p6 As Point
+                p6.X = diemchen.X - rd
+                p6.Y = diemchen.Y + rd
+                lst_diemchen1.Add(p6)
+
+
+            End If
+            If i = _vitrichen4 Then
+                diemchen = Hamve.vethep(BanVe, New Point(CInt(x), CInt(y)), Data.bankinh1 / 35.0#, "1")
+                diemchen.Y = diemchen.Y - rd
+                diemchen.X = diemchen.X
+
+                lst_diemchen1.Add(diemchen)
+                Dim p8 As Point
+                p8.X = diemchen.X + rd
+                p8.Y = diemchen.Y + rd
+                lst_diemchen1.Add(p8)
+            End If
+            ' thép đai cho hình chữ nhật nằm ngang
+            If i = _vitrichen_1 Then
+                diemchen = Hamve.vethep(BanVe, New Point(CInt(x), CInt(y)), Data.bankinh1 / 35.0#, "1")
+                diemchen.Y = diemchen.Y + rd
+                lst_diemchen2.Add(diemchen)
+                Dim p2 As Point
+                p2.X = diemchen.X + rd
+                p2.Y = diemchen.Y - rd
+                lst_diemchen2.Add(p2)
+
+            End If
+            If i = _vitrichen2_1 Then
+                diemchen = Hamve.vethep(BanVe, New Point(CInt(x), CInt(y)), Data.bankinh1 / 35.0#, "1")
+                diemchen.Y = diemchen.Y + rd
+                lst_diemchen2.Add(diemchen) ' p3
+                Dim p4 As Point
+                p4.X = diemchen.X - rd
+                p4.Y = diemchen.Y - rd
+                lst_diemchen2.Add(p4)
+
+            End If
+            If i = _vitrichen3_1 Then
+                diemchen = Hamve.vethep(BanVe, New Point(CInt(x), CInt(y)), Data.bankinh1 / 35.0#, "1")
+                diemchen.X = diemchen.X
+                diemchen.Y = diemchen.Y - rd
+                lst_diemchen2.Add(diemchen)
+                Dim p6 As Point
+                p6.X = diemchen.X - rd
+                p6.Y = diemchen.Y + rd
+                lst_diemchen2.Add(p6)
+
+
+            End If
+            If i = _vitrichen4_1 Then
+                diemchen = Hamve.vethep(BanVe, New Point(CInt(x), CInt(y)), Data.bankinh1 / 35.0#, "1")
+                diemchen.Y = diemchen.Y - rd
+                diemchen.X = diemchen.X
+
+                lst_diemchen2.Add(diemchen)
+                Dim p8 As Point
+                p8.X = diemchen.X + rd
+                p8.Y = diemchen.Y + rd
+                lst_diemchen2.Add(p8)
+            End If
         Next
+        Hamve.CreateNewPoline(BanVe, lst_diemchen)
+        Hamve.CreateNewPoline(BanVe, lst_diemchen1)
+        Hamve.CreateNewPoline(BanVe, lst_diemchen2)
+
 
 
     End Sub

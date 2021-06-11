@@ -391,7 +391,7 @@ Public Class view_bieudo
     End Sub
 
     Private Sub cbbdiameter_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cbbdiameter.SelectedIndexChanged
-        hamchonthep()
+        Data.duongkinhve = hamchonthep()
     End Sub
     Private Sub txt_sothanh_TextChanged(sender As Object, e As EventArgs) Handles txt_sothanh.TextChanged
         hamchonthep()
@@ -412,9 +412,9 @@ Public Class view_bieudo
         lb_steel.Text = Math.Round(_As(dk), 3).ToString + "Cm2"
         Return Math.Round(_As(dk), 3)
     End Function
-    Private Sub hamchonthep()
+    Private Function hamchonthep() As Integer
         Try
-            Dim sothanh As Double = Convert.ToDouble(txt_sothanh.Text)
+            Dim sothanh As Integer = CInt(txt_sothanh.Text)
             Dim iscurrent As Integer = cbbdiameter.SelectedIndex
             Dim Dk As Integer ' đường Kính
             Dim ct As choncotthep
@@ -429,12 +429,12 @@ Public Class view_bieudo
             Data.bankinh2 = Data.bankinh1 - lopbaove
             Data.duongkinh = Dk
             Data.dientich = ct.dientichchon * 0.01 ' để đổi đơn vị ra cm2
+            Return Dk
         Catch ex As Exception
             ' lỗi lần đầu load
         End Try
-
-
-    End Sub
+        Return 0
+    End Function
     Private Sub hamvebieudo()
         Chart1.Series.Clear()
         Dim step_anpha As Double = Val(txt_step_anpha.Text)
