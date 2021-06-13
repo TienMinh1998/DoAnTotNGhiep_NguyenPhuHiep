@@ -188,6 +188,7 @@
     <Compile Include="Controler\TinhToan.vb" />
     <Compile Include="Functions.vb" />
     <Compile Include="Model\Column\Ba.vb" />
+    <Compile Include="Model\Module1.vb" />
     <Compile Include="Model\NoiLuc\Element.vb" />
     <Compile Include="Model\Vatlieu\choncotthep.vb" />
     <Compile Include="Model\NoiLuc\cls_noiluc.vb" />

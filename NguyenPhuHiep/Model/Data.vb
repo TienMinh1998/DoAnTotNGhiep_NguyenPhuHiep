@@ -62,6 +62,11 @@ Module Data
     Public mx As String
     Public my As String
     Public ntu As String
+    Public momen As String
+    Public chieudaitinh As String
+    Public duongkinhbandau As String
+    Public lopbaove As String
+
     ' Dữ liệu để vẽ
     Public duongkinhve As Integer
 

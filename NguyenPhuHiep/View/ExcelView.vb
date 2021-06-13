@@ -440,6 +440,7 @@ Public Class ExcelView
     Private Sub ExcelView_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
         Me.dgvnl.AutoGenerateColumns = False
+
     End Sub
 
     Private Sub dgvnl_CellPainting(sender As Object, e As DataGridViewCellPaintingEventArgs) Handles dgvnl.CellPainting
@@ -480,6 +481,7 @@ Public Class ExcelView
     End Sub
 
     Private Sub btn_tohop_Click(sender As Object, e As EventArgs) Handles btn_tohop.Click, BunifuButton2.Click
+        dgv_kq.ReadOnly = True
         Dim th As New Thread(AddressOf hello)
         PROCESS.Visible = True
         th.Start()

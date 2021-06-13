@@ -49,16 +49,13 @@ Public Class view_bieudo
     End Property
 
     Private Sub btn_ve_Click(sender As Object, e As EventArgs) Handles btn_ve.Click
-        'Chart1.Series.Clear()
-        'Dim step_anpha As Double = Val(txt_step_anpha.Text)
-        'Vebieudo(step_anpha, Data.hesokeodai)
-        ''   CreateNewLiveChart()
-        'Vecot()
-        txt_duongkinhcot.Text = Data.mycol.duongkinh.ToString
-        txt_lopbaove.Text = Data.mycol.lopbaove.ToString
-        txt_chieudaitinhtoan.Text = Data.mycol.chieudai.ToString
-        txt_m.Text = Data.mycol.momen.ToString
-        txt_n.Text = Data.mycol.lucdoc.ToString
+
+        txt_duongkinhcot.Text = Data.duongkinhbandau
+        txt_lopbaove.Text = Data.lopbaove
+
+        txt_chieudaitinhtoan.Text = Data.chieudaitinh
+        txt_m.Text = Data.momen
+        txt_n.Text = Data.ntu
 
     End Sub
 

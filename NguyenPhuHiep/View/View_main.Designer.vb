@@ -56,12 +56,10 @@
         Me.BarButtonItem18 = New DevExpress.XtraBars.BarButtonItem()
         Me.ribbonPage1 = New DevExpress.XtraBars.Ribbon.RibbonPage()
         Me.ribbonPageGroup1 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
-        Me.RibbonPageGroup4 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
         Me.RibbonPageGroup7 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
         Me.RibbonPage3 = New DevExpress.XtraBars.Ribbon.RibbonPage()
         Me.RibbonPageGroup9 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
         Me.RibbonPageGroup2 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
-        Me.RibbonPageGroup5 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
         Me.RibbonPage2 = New DevExpress.XtraBars.Ribbon.RibbonPage()
         Me.RibbonPageGroup3 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
         Me.RibbonPageGroup6 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
@@ -294,8 +292,7 @@
         '
         Me.btnExcel.Caption = "New Data Excel"
         Me.btnExcel.Id = 27
-        Me.btnExcel.ImageOptions.Image = CType(resources.GetObject("btnExcel.ImageOptions.Image"), System.Drawing.Image)
-        Me.btnExcel.ImageOptions.LargeImage = CType(resources.GetObject("btnExcel.ImageOptions.LargeImage"), System.Drawing.Image)
+        Me.btnExcel.ImageOptions.SvgImage = CType(resources.GetObject("btnExcel.ImageOptions.SvgImage"), DevExpress.Utils.Svg.SvgImage)
         Me.btnExcel.Name = "btnExcel"
         Me.btnExcel.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large
         '
@@ -309,27 +306,20 @@
         '
         'ribbonPage1
         '
-        Me.ribbonPage1.Groups.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageGroup() {Me.ribbonPageGroup1, Me.RibbonPageGroup4, Me.RibbonPageGroup7})
+        Me.ribbonPage1.Groups.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageGroup() {Me.ribbonPageGroup1, Me.RibbonPageGroup7})
         Me.ribbonPage1.Name = "ribbonPage1"
         Me.ribbonPage1.Text = "Main"
         '
         'ribbonPageGroup1
         '
         Me.ribbonPageGroup1.ItemLinks.Add(Me.btnExcel)
-        Me.ribbonPageGroup1.ItemLinks.Add(Me.BarButtonItem18)
+        Me.ribbonPageGroup1.ItemLinks.Add(Me.btn_chonvatlieu)
         Me.ribbonPageGroup1.ItemLinks.Add(Me.btn_thongsocot)
         Me.ribbonPageGroup1.Name = "ribbonPageGroup1"
         Me.ribbonPageGroup1.Text = "Nhập Liệu Các thông số tính toán"
         '
-        'RibbonPageGroup4
-        '
-        Me.RibbonPageGroup4.ItemLinks.Add(Me.btn_chonvatlieu)
-        Me.RibbonPageGroup4.Name = "RibbonPageGroup4"
-        Me.RibbonPageGroup4.Text = "Thông Tin Của Phần Mềm"
-        '
         'RibbonPageGroup7
         '
-        Me.RibbonPageGroup7.ItemLinks.Add(Me.btn_noiLuc)
         Me.RibbonPageGroup7.ItemLinks.Add(Me.BarButtonItem15)
         Me.RibbonPageGroup7.ItemLinks.Add(Me.btnhuongdan)
         Me.RibbonPageGroup7.Name = "RibbonPageGroup7"
@@ -337,7 +327,7 @@
         '
         'RibbonPage3
         '
-        Me.RibbonPage3.Groups.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageGroup() {Me.RibbonPageGroup9, Me.RibbonPageGroup2, Me.RibbonPageGroup5})
+        Me.RibbonPage3.Groups.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageGroup() {Me.RibbonPageGroup9, Me.RibbonPageGroup2})
         Me.RibbonPage3.Name = "RibbonPage3"
         Me.RibbonPage3.Text = "Phương Pháp Tính Toán"
         '
@@ -352,12 +342,6 @@
         Me.RibbonPageGroup2.ItemLinks.Add(Me.btn_banve)
         Me.RibbonPageGroup2.Name = "RibbonPageGroup2"
         Me.RibbonPageGroup2.Text = "Kết quả bố trí thép"
-        '
-        'RibbonPageGroup5
-        '
-        Me.RibbonPageGroup5.ItemLinks.Add(Me.btn_tinhthep)
-        Me.RibbonPageGroup5.Name = "RibbonPageGroup5"
-        Me.RibbonPageGroup5.Text = "RibbonPageGroup5"
         '
         'RibbonPage2
         '
@@ -439,9 +423,7 @@
     Friend WithEvents btn_kiemtra As DevExpress.XtraBars.BarButtonItem
     Friend WithEvents btn_banve As DevExpress.XtraBars.BarButtonItem
     Friend WithEvents RibbonPageGroup2 As DevExpress.XtraBars.Ribbon.RibbonPageGroup
-    Friend WithEvents RibbonPageGroup5 As DevExpress.XtraBars.Ribbon.RibbonPageGroup
     Friend WithEvents BarButtonItem15 As DevExpress.XtraBars.BarButtonItem
-    Friend WithEvents RibbonPageGroup4 As DevExpress.XtraBars.Ribbon.RibbonPageGroup
     Friend WithEvents btn_xuatbanve As DevExpress.XtraBars.BarButtonItem
     Friend WithEvents RibbonPageGroup6 As DevExpress.XtraBars.Ribbon.RibbonPageGroup
     Friend WithEvents btnhuongdan As DevExpress.XtraBars.BarButtonItem

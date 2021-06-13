@@ -22,9 +22,9 @@ Partial Class view_bieudo
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim ChartArea1 As System.Windows.Forms.DataVisualization.Charting.ChartArea = New System.Windows.Forms.DataVisualization.Charting.ChartArea()
-        Dim Legend1 As System.Windows.Forms.DataVisualization.Charting.Legend = New System.Windows.Forms.DataVisualization.Charting.Legend()
-        Dim Series1 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
+        Dim ChartArea2 As System.Windows.Forms.DataVisualization.Charting.ChartArea = New System.Windows.Forms.DataVisualization.Charting.ChartArea()
+        Dim Legend2 As System.Windows.Forms.DataVisualization.Charting.Legend = New System.Windows.Forms.DataVisualization.Charting.Legend()
+        Dim Series2 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
         Me.Chart1 = New System.Windows.Forms.DataVisualization.Charting.Chart()
         Me.btn_ve = New Guna.UI2.WinForms.Guna2Button()
         Me.txt_duongkinhcot = New Guna.UI2.WinForms.Guna2TextBox()
@@ -104,18 +104,18 @@ Partial Class view_bieudo
         'Chart1
         '
         Me.Chart1.BackColor = System.Drawing.Color.Gainsboro
-        ChartArea1.Name = "ChartArea1"
-        Me.Chart1.ChartAreas.Add(ChartArea1)
+        ChartArea2.Name = "ChartArea1"
+        Me.Chart1.ChartAreas.Add(ChartArea2)
         Me.Chart1.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Chart1.Dock = System.Windows.Forms.DockStyle.Fill
-        Legend1.Name = "Legend1"
-        Me.Chart1.Legends.Add(Legend1)
+        Legend2.Name = "Legend1"
+        Me.Chart1.Legends.Add(Legend2)
         Me.Chart1.Location = New System.Drawing.Point(2, 20)
         Me.Chart1.Name = "Chart1"
-        Series1.ChartArea = "ChartArea1"
-        Series1.Legend = "Legend1"
-        Series1.Name = "Series1"
-        Me.Chart1.Series.Add(Series1)
+        Series2.ChartArea = "ChartArea1"
+        Series2.Legend = "Legend1"
+        Series2.Name = "Series1"
+        Me.Chart1.Series.Add(Series2)
         Me.Chart1.Size = New System.Drawing.Size(1421, 821)
         Me.Chart1.TabIndex = 0
         Me.Chart1.Text = "Chart1"
@@ -131,12 +131,12 @@ Partial Class view_bieudo
         Me.btn_ve.Font = New System.Drawing.Font("Segoe UI", 9.0!)
         Me.btn_ve.ForeColor = System.Drawing.Color.White
         Me.btn_ve.HoverState.Parent = Me.btn_ve
-        Me.btn_ve.Location = New System.Drawing.Point(349, 46)
+        Me.btn_ve.Location = New System.Drawing.Point(336, 46)
         Me.btn_ve.Name = "btn_ve"
         Me.btn_ve.ShadowDecoration.Parent = Me.btn_ve
-        Me.btn_ve.Size = New System.Drawing.Size(101, 31)
+        Me.btn_ve.Size = New System.Drawing.Size(114, 31)
         Me.btn_ve.TabIndex = 1
-        Me.btn_ve.Text = "Get Data"
+        Me.btn_ve.Text = "Lấy dữ liệu"
         '
         'txt_duongkinhcot
         '
@@ -158,6 +158,7 @@ Partial Class view_bieudo
         Me.txt_duongkinhcot.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
         Me.txt_duongkinhcot.PlaceholderText = "Nhập Bán Kính"
         Me.txt_duongkinhcot.SelectedText = ""
+        Me.txt_duongkinhcot.SelectionStart = 4
         Me.txt_duongkinhcot.ShadowDecoration.Parent = Me.txt_duongkinhcot
         Me.txt_duongkinhcot.Size = New System.Drawing.Size(90, 20)
         Me.txt_duongkinhcot.TabIndex = 3

@@ -49,7 +49,7 @@ Partial Public Class View_main
 
     Private Sub btn_thongsocot_ItemClick(sender As Object, e As DevExpress.XtraBars.ItemClickEventArgs) Handles btn_thongsocot.ItemClick
         ' HIỆN form nhập liệu : 
-        Nhaplieu.Show()
+        Nhaplieu.ShowDialog()
     End Sub
 
     Private Sub BarButtonItem4_ItemClick(sender As Object, e As DevExpress.XtraBars.ItemClickEventArgs) Handles BarButtonItem4.ItemClick
