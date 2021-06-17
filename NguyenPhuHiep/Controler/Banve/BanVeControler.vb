@@ -77,7 +77,7 @@
         Dim diemchen2 As New Point()
         diemchen2.X = centerpoint.X + 4 * kc
         diemchen2.Y = centerpoint.Y
-        Hamve.CreateNewReatangule(BanVe, 2800, 1200, diemchen2)
+        Hamve.CreateNewReatangule(BanVe, Convert.ToDouble(Data.chieudaitinhtoancot), Data.bankinh1 * 2, diemchen2)
         Dim diem1 As New Point()
         diem1.X = diemchen2.X - CInt(Data.bankinh1) - 300
         diem1.Y = diemchen2.Y + CInt(chieudaicot / 2)
@@ -89,9 +89,32 @@
         Dim chandim1 = New Point()
         chandim1.X = diemchen2.X - CInt(Data.bankinh1) - 300 - 150
         chandim1.Y = diemchen2.Y
-
         Hamve.CreateVewDim(BanVe, diem1, diem2, chandim1)
+        ' Dim cho đoạn dưới 
 
+
+        ' Vẽ thép cho hình chữ nhật
+        ' tính khoảng đặt thép
+        Dim lopbaove As Double = Convert.ToDouble(Data.lopbaovecot)
+        Dim duongkinh As Double = Data.bankinh1 * 2
+        Dim khoangcachdatthep = duongkinh - 2 * lopbaove
+        Dim buocnhay As Double = khoangcachdatthep / (0.5 * Data.sothanhthep)
+
+
+        Dim dinh1 As New Point()
+        dinh1.X = diemchen2.X - khoangcachdatthep / 2
+        dinh1.Y = diemchen2.Y + Val(Data.chieudaitinhtoancot) / 2
+        Dim dinh2 As New Point()
+        dinh2.X = dinh1.X
+        dinh2.Y = diemchen2.Y - Val(Data.chieudaitinhtoancot) / 2
+
+        Dim x As Double = 0
+        While x <= khoangcachdatthep
+            Hamve.CreateNewLine(BanVe, dinh1, dinh2, "1")
+            dinh1.X = dinh1.X + CInt(buocnhay)
+            dinh2.X = dinh2.X + CInt(buocnhay)
+            x = x + buocnhay
+        End While
         Hamve.zoom()
     End Sub
     Dim lst_diemchen As New List(Of Point)

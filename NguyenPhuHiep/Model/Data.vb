@@ -69,5 +69,7 @@ Module Data
 
     ' Dữ liệu để vẽ
     Public duongkinhve As Integer
+    Public chieudaitinhtoancot As String
+    Public lopbaovecot As String
 
 End Module

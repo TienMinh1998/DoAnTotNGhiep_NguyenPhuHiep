@@ -78,7 +78,8 @@ Partial Public Class View_main
     Private Sub btn_banve_ItemClick(sender As Object, e As DevExpress.XtraBars.ItemClickEventArgs) Handles btn_banve.ItemClick
         'Try
         Dim a As New BanVeControler()
-        a.vecot(New Point(0, 0), Data.sothanhthep, 2800) ' vẽ cột 16 điểm Thép
+        Dim chieudai As Double = Convert.ToDouble(Data.chieudaitinhtoancot)
+        a.vecot(New Point(0, 0), Data.sothanhthep, chieudai) ' vẽ cột 16 điểm Thép
         DisplayFRM(View_BanVe)
         'Catch ex As Exception
         '    MessageBox.Show("Chưa có đủ dữ liệu", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Error)

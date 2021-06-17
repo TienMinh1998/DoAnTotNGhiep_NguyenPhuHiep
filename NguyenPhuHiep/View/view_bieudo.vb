@@ -80,6 +80,9 @@ Public Class view_bieudo
         End If
 
         Try
+            Data.chieudaitinhtoancot = txt_chieudaitinhtoan.Text
+            Data.lopbaovecot = txt_lopbaove.Text
+
             Chart1.Series.Clear()
             Dim step_anpha As Double = Val(txt_step_anpha.Text)
             Vebieudo(step_anpha, Data.hesokeodai)
